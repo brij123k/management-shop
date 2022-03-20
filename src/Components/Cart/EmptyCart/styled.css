@@ -1,0 +1,36 @@
+.emptycart{
+    height: calc(100vh - 12.7rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .emptycart img{
+     width: 50%;
+     height:50%;
+     object-fit: contain;
+     max-width: 200px;
+     
+ }
+     .button-shop{
+     background-color:#000;
+     color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0.5rem 1.5rem;
+     outline: none;
+     font-size: 1rem;
+     border-bottom-right-radius: 25px;
+     border-top-right-radius: 25px;
+     border-top-left-radius: 25px;
+     cursor: pointer;
+     margin-top: 1.5rem; 
+ }
+ p{
+     font-size:20px;
+     font-weight: bolder;
+ }
+ span{
+     font-size: 12px;
+ }

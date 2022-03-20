@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+body{
+  background-color: #f8f8f8;
+  
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+
+
